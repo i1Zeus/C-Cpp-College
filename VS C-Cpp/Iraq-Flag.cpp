@@ -6,7 +6,7 @@ void display() {
 	glClear(GL_COLOR_BUFFER_BIT);
 
 
-	glBegin(GL_QUAD_STRIP); // Red Flag Quads 
+	glBegin(GL_QUAD_STRIP); // Red Part Quads 
 	glColor3f(1, 0, 0);
 	glVertex2f(-1, 1);
 	glVertex2f(1, 1);
@@ -14,7 +14,7 @@ void display() {
 	glVertex2f(1, 0.35);
 	glEnd();
 
-	glBegin(GL_QUAD_STRIP); // White Flag Quads 
+	glBegin(GL_QUAD_STRIP); // White Part Quads 
 	glColor3f(1, 1, 1);
 	glVertex2f(-1, 0.35);
 	glVertex2f(1, 0.35);
